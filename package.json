@@ -1,0 +1,29 @@
+{
+    "name": "loksa-code",
+    "displayName": "loksa code",
+    "description": "Code snippett for web development",
+    "version": "0.1.0",
+    "publisher": "loksa",
+    "engines": {
+        "vscode": "^1.33.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "typescript",
+                "path": "./snippets/snippets.json"
+            },
+            {
+                "language": "html",
+                "path": "./snippets/snippets.json"
+            },
+            {
+                "language": "html",
+                "path": "./snippets/snippets.json"
+            }
+        ]
+    }
+}
